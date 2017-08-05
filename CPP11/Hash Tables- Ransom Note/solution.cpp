@@ -23,6 +23,7 @@
 
 using namespace std;
 
+// Simpler implementation without a hash table
 bool ransom_note(vector<string> magazine, vector<string> ransom) {
     sort(magazine.begin(), magazine.end());
     sort(ransom.begin(), ransom.end());
